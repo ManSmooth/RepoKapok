@@ -30,3 +30,7 @@ The dealer will try their best to win or draw against you.
 After both parties' plays have been concluded. 
 The side with more value on their hand will win if it's not a bust.
 If it's equal then it's a draw in exception of *Blackjack* and *Natural Blackjack* then the result is mentioned above.
+
+
+
+Also check out [Kan's mini project](https://github.com/ManSmooth/RepoKapok/tree/main/953100%20Comp%20Pro/003)
