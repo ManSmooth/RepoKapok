@@ -33,4 +33,4 @@ If it's equal then it's a draw in exception of *Blackjack* and *Natural Blackjac
 
 
 
-Also check out [Kan's mini project](https://github.com/ManSmooth/RepoKapok/tree/main/953100%20Comp%20Pro/003)
+Also check out [Kan's mini project](https://github.com/hoshizaki-iori/compro_java_mini_project)
