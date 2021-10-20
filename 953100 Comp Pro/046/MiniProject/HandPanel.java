@@ -40,6 +40,15 @@ public class HandPanel extends JPanel {
         this.revalidate();
     }
 
+    public void addCard(int face, int suit, boolean hidden) {
+        d.add(new Card(face, suit, hidden));
+        try {
+            refresh();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
     public int getValue() {
         return d.cardSum();
     }

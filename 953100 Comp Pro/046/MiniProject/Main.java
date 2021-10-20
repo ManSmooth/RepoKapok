@@ -171,6 +171,8 @@ public class Main {
         String temp = "";
         if (dealerVal > 21 && playerVal > 21) {
             temp = "It's a draw.";
+        } else if (dealerNatural && !natural && dealerVal == 21) {
+            temp = "You lose.";
         } else if (dealerVal == playerVal) {
             temp = "It's a draw.";
         } else if (dealerVal > 21) {
