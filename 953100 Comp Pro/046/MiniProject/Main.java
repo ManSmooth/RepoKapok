@@ -96,7 +96,7 @@ public class Main {
         player = new HandPanel();
         player.draw(2, 0);
         frame.add(player, gbc);
-
+        
         Refresh();
         Stand.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -144,6 +144,9 @@ public class Main {
         } else if (dealerVal > 21) {
             dealerSplash.setText("Bust!");
         }
+        System.out.println(player.getHand());
+        System.out.println(dealer.getHand());
+        System.out.println();
     }
 
     private static void Refresh() {
@@ -198,4 +201,4 @@ public class Main {
             frame.dispatchEvent(new WindowEvent(frame, WindowEvent.WINDOW_CLOSING));
         }
     }
-}
+}   

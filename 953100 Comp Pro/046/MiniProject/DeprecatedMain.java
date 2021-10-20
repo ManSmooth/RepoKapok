@@ -7,6 +7,7 @@ Deprecated Main class (Command-line based game)
 */
 
 public class DeprecatedMain {
+    private static Scanner scanner;
     public static void main(String[] args) {
         boolean mainLoop = true;
         boolean natural = false;
@@ -89,6 +90,7 @@ public class DeprecatedMain {
             System.out.println("Lose.");
         }
         in.close();
+        scanner.close();
     }
 
     private static void showMenu() {
@@ -97,7 +99,7 @@ public class DeprecatedMain {
 
     private static void enterContinue() {
         System.out.println("Enter to continue.");
-        Scanner scanner = new Scanner(System.in);
+        scanner = new Scanner(System.in);
         scanner.nextLine();
     }
 }

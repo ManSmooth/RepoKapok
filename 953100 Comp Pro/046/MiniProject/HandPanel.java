@@ -57,4 +57,8 @@ public class HandPanel extends JPanel {
         d = new Hand();
         this.draw(n, m);
     }
+    
+    public Hand getHand() {
+        return this.d;
+    }
 }
