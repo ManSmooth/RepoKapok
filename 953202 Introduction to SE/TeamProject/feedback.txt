@@ -1,0 +1,21 @@
+Requirement:
+	User
+	- Register
+
+	Admin 
+	- Product validation
+	- Reliablity 
+
+	Farmer
+	- How to sell product
+	- Open store
+	- Validation
+
+Prototype: 
+	Just do it 
+
+Testing : 
+	Test user usability
+	Test UI 3 times 
+	
+
