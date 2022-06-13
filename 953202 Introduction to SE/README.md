@@ -4,7 +4,7 @@ Team name : Untitled
 Project name : Chaorai_Prompt  
 
 ## Elite Team Member
-- [642115003 Kan Katpark](https://github.com/hoshizaki-iori)  
+- [642115003 Kan Katpark](https://github.com/h0shizaki)  
 - [642115006 Jakkaphat Ploylake](#)  
 - [642115017 Dusit Chunviset](https://github.com/DeitYzS)  
 - [642115018 Tinnapat Rattanawilaikul](#)
