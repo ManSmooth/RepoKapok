@@ -2,4 +2,5 @@
 bruh moment
 
 ### Contributors
+- [642115003 Kan](https://github.com/hoshizaki-iori)
 - [642115046 Yo](https://github.com/ManSmooth/)
