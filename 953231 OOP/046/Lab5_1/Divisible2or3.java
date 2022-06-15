@@ -5,7 +5,7 @@ import java.math.BigInteger;
 public class Divisible2or3 {
     public static void main(String[] args) {
         final int LENGTH = 10;
-        BigInteger FIFTY_DIGITS = new BigInteger("1" + "0".repeat(49));
+        final BigInteger FIFTY_DIGITS = new BigInteger("1" + "0".repeat(49));
         int mod2 = FIFTY_DIGITS.mod(BigInteger.valueOf(2)).intValue();
         int mod3 = FIFTY_DIGITS.mod(BigInteger.valueOf(3)).intValue();
         int runner = 0;

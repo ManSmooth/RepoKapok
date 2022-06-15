@@ -7,6 +7,10 @@ public class StackofInteger extends Vector<Integer> {
         super();
     }
 
+    public StackofInteger(int size) {
+        super(size);
+    }
+
     public Integer peek() {
         return this.get(this.size() - 1);
     }

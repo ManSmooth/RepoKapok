@@ -1,9 +1,9 @@
 package Lab4_2;
 
 public class Circle2d {
-    private double x;
-    private double y;
-    private double radius;
+    protected double x;
+    protected double y;
+    protected double radius;
 
     public Circle2d() {
         x = 0;
